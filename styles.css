@@ -1,0 +1,148 @@
+
+#top
+{
+    background-color: #194350;
+    margin: 0%;
+    padding: 0%;
+}
+#image1{
+
+ 
+    background:url("images/roomates.jpeg");
+   
+    height: 725px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.6;
+
+   /* position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: rebeccapurple;
+    background-size: cover;
+    
+    margin: 0%;
+    opacity: 0.6;*/
+
+}
+
+#heading1{
+
+
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #dbf6e9;
+    font-family: cursive;
+
+    /*position: relative;
+    text-align:center;
+    padding-top: 18%;
+    font-size: 10rem;
+    font-family: cursive;
+    color: darkslategray;*/
+}
+
+@media screen and (min-width: 601px) {
+    #heading1 {
+      font-size: 10rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+   #heading1 {
+      font-size: 4rem;
+     text-align: center;
+     top: 25%;
+    }
+    #image1{
+        background:url("images/roomates.jpeg");
+   
+        height: 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        opacity: 0.6;
+        margin-left: 0%;
+
+    }
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+
+
+.seconddiv{
+  padding: 5%;
+  background-color: #edffec;
+}
+
+
+.photo{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    padding-top: 3%;
+    border-radius: 10%;
+}
+
+.column{
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    border-radius: 10%;
+}
+
+.thirddiv{
+    padding: 5%;
+    padding-top: 2%;
+    background-color: #2b2e4a;
+    text-align: center;
+}
+.fa{
+    font-size: 1.6rem;
+    padding: 3%;
+    color: black;
+    text-align: center;
+    color: #31326f;
+}
+
+.name
+{
+    line-height: 2;
+    font-size: 1.6rem;
+    font-family: 'Merriweather', serif;
+    color: #31326f;
+    text-align: center;
+}
+
+.col1{
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+
+
+.footer{
+    background-color: #edffec;
+    padding: 5%;
+    text-align: center;
+}
+
+#head3{
+    padding: 8%;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Merriweather', serif;
+}
