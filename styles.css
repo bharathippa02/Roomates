@@ -76,6 +76,7 @@
 body{
     margin: 0%;
     padding: 0%;
+    font-family: 'Merriweather', serif;
     
 }
 
@@ -96,8 +97,10 @@ body{
 }
 
 .column{
+    position: relative;
     text-align: center;
     background-color: white;
+    opacity: 0.8;
     width: 300px;
     height: 450px;
     border-radius: 10%;
@@ -145,4 +148,62 @@ body{
     color: white;
     font-size: 4rem;
     font-family: 'Merriweather', serif;
+}
+
+
+.pressed{
+    opacity: 0.6;
+    background-color: aqua;
+}
+
+.column1{
+   padding: 5%;
+}
+
+.overlay {
+    position: absolute;
+    background-color: #caf7e3;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+   bottom: 0%;
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
+    border-radius: 10%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+   
+  }
+  
+  .column:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+
+  .a{
+      display:inline;
+  }
+
+table{
+    border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+td {
+    width: 130px;
+    padding: 3px;
+  }
+
+.bottom{
+    padding-top: 10%;
+}
+
+.overlay1{
+    color: #2b2e4a;
 }
